@@ -27,32 +27,34 @@ So, here is some things I tried along the to get here:
     ![image](content/generated/generated-images-0025.png)
 
     The video of generated images is [`output.mp4`](https://github.com/GuldenizBektas/AnimeGAN/blob/main/output.mp4):
-
-    ###
+    
+    <video src="https://user-images.githubusercontent.com/72661473/198141763-182dc7ab-240f-4ef3-a1c3-657493096588.mp4" controls="controls" style="max-width: 730px;">
+    </video>
 
 - I used binary cross entropy loss with logits, BCEwithLogitLoss. [Content 2](https://github.com/GuldenizBektas/AnimeGAN/tree/main/content%202/generated) folder contains the outputs. The final result:
 
     ![image](https://github.com/GuldenizBektas/AnimeGAN/blob/main/content%202/generated/generated-images-0025.png?raw=true)
 
     The video of generated images is [`output2.mp4`](https://github.com/GuldenizBektas/AnimeGAN/blob/main/output2.mp4):
-
-    ###
+    
+    <video src="https://user-images.githubusercontent.com/72661473/198142120-d4222496-b4a0-4ea1-a93b-389e4cf05ec4.mp4" controls="controls" style="max-width: 730px;">
+    </video>
 
 - I used Wasserstein Loss without Gradient Penalty. [Content 3](https://github.com/GuldenizBektas/AnimeGAN/tree/main/content%203/generated) folder contains the outputs. The final result:
 
     ![image](https://github.com/GuldenizBektas/AnimeGAN/blob/main/content%203/generated/generated-images-0025.png?raw=true)
 
     The video of generated images is [`output3.mp4`](https://github.com/GuldenizBektas/AnimeGAN/blob/main/output3.mp4):
-
-    ###
+    
+    <video src="https://user-images.githubusercontent.com/72661473/198142194-1ee338e8-02de-42c0-ba75-919e11a1cdec.mp4" controls="controls" style="max-width: 730px;">
 
 - I used Wasserstein Loss with Gradient Penalty. [Content 4](https://github.com/GuldenizBektas/AnimeGAN/tree/main/content%204/generated) folder contains the outputs. The final result:
 
     ![image](https://github.com/GuldenizBektas/AnimeGAN/blob/main/content%204/generated/generated-images-0025.png?raw=true)
 
     The video of generated images is [`output4.mp4`](https://github.com/GuldenizBektas/AnimeGAN/blob/main/output4.mp4):
-
-    ###
+    
+    <video src="https://user-images.githubusercontent.com/72661473/198142288-d1176406-0643-4588-ac0d-52c3fd503c40.mp4" controls="controls" style="max-width: 730px;">
 
 Did you notice the difference? Colors especially. I bet it can be better. So, I'll leave you to it.
 
